@@ -1,4 +1,4 @@
-//jshint esversion:6
+//jshint esversion:6 
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -14,8 +14,12 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-//TODO
+//your https request and response 
 
+
+
+
+//port
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
